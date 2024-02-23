@@ -53,7 +53,9 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     elif option == 2:
       #s.system('clear')
       subprocess.call(["airodump-ng", "wlan0"])
-      
+    elif option == 3:
+        ##Commands 
+    
     else:
         print("Invalid option. Please choose a valid option.")
         break
