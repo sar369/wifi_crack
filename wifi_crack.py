@@ -50,12 +50,9 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
                 print("Error: Check if your adapter is connected properly and Retry again")
                 print(result.stderr)
                 break
-    elif option == 2:
+    elif option == 2 or 3:
       #s.system('clear')
       subprocess.call(["airodump-ng", "wlan0"])
-    elif option == 3:
-        ##Commands 
-    
     else:
         print("Invalid option. Please choose a valid option.")
         break
