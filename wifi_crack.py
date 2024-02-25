@@ -38,7 +38,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     os.system('clear')
 
     if option == 1:
-	print("Adptor Interfaces: ")
+        print("Adptor Interfaces: ")
         print("1.wlan0")
         print("2.Wlan0mon")
 
