@@ -2,8 +2,6 @@
 
 ### Working on process....
 
-#commands
-
 ##### Install requriments first
 
 ```bash install.sh```
