@@ -30,7 +30,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
 """, "green")
     print(text)
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
-    text = colored(">>Select Option by Entering the following number<<", "yellow")
+    text = colored(">>Select Option by Entering the following number<<\n", "yellow")
     print(text)
     print("1. Wifi Adptor to Montor mode")
     print("2. Wifi Scan && Attack")
@@ -39,7 +39,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     os.system('clear')
 
     if option == 1:
-        text = colored("Adptor Interfaces: ", "yellow")
+        text = colored("Adptor Interfaces: \n", "yellow")
         print(text)
         print("1.wlan0")
         print("2.Wlan0mon")
