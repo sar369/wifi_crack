@@ -11,7 +11,7 @@ for i in tqdm(range(10000)):
 	sleep(0.0005)
 while True:
     os.system('clear')
-    print("""
+    text = colored("""
                                                                                                       
 I8,        8        ,8I 88    ad88 88         ,ad8888ba,                                   88         
 `8b       d8b       d8' ""   d8"   ""        d8"'    `"8b                                  88         
@@ -27,9 +27,10 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
            
 											  --- by sar1 
 	     
-""")
+""",green)
+	print(text)
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
-    text = (">>Select Option by Entering the following number<<", "green")
+    text = colored(">>Select Option by Entering the following number<<", "yellow")
     print(text)
     print("1. Wifi Adptor to Montor mode")
     print("2. Wifi Scan && Attack")
