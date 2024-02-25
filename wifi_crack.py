@@ -11,7 +11,7 @@ for i in tqdm(range(10000)):
 	sleep(0.0005)
 while True:
     os.system('clear')
-    text = ("""
+    print("""
                                                                                                       
 I8,        8        ,8I 88    ad88 88         ,ad8888ba,                                   88         
 `8b       d8b       d8' ""   d8"   ""        d8"'    `"8b                                  88         
@@ -27,10 +27,10 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
            
 											  --- by sar1 
 	     
-""", 'green')
-    print(text)
+""")
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
-    print(">>Select Option by Entering the following number<<\n")
+    text = (">>Select Option by Entering the following number<<\n","green")
+    print(text)
     print("1. Wifi Adptor to Montor mode")
     print("2. Wifi Scan && Attack")
     print("3. Wifi Deauthentication Attack\n")
@@ -38,7 +38,8 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     os.system('clear')
 
     if option == 1:
-        print("Adptor Interfaces: ")
+        text = ("Adptor Interfaces: ","green")
+	print(text)
         print("1.wlan0")
         print("2.Wlan0mon")
 
