@@ -1,5 +1,7 @@
 import subprocess
 import os
+import sys
+from termcolor import colored
 from tqdm import tqdm
 from time import sleep
 
@@ -9,7 +11,7 @@ for i in tqdm(range(10000)):
 	sleep(0.0005)
 while True:
     os.system('clear')
-    print("""
+    text = ("""
                                                                                                       
 I8,        8        ,8I 88    ad88 88         ,ad8888ba,                                   88         
 `8b       d8b       d8' ""   d8"   ""        d8"'    `"8b                                  88         
@@ -24,6 +26,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
                                                                                          
                                                                                           --- by sar1            
 """)
+    print(text)
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
     print(">>Select Option by Entering the following number<<\n")
     print("1. Wifi Adptor to Montor mode")
