@@ -39,7 +39,8 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     os.system('clear')
 
     if option == 1:
-        print("Adptor Interfaces: ")
+        text=("Adptor Interfaces: ", "yellow")
+        print(text)
         print("1.wlan0")
         print("2.Wlan0mon")
 
@@ -63,7 +64,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
                 print(result.stderr)
                 break
     elif option == 2 or 3:
-      #s.system('clear')
+      #os.system('clear')
       subprocess.call(["airodump-ng", "wlan0"])
     else:
         print("Invalid option. Please choose a valid option.")
