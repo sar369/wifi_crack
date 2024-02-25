@@ -4,7 +4,8 @@
 
 #commands
 
-Install requriments first `bash install.sh`.
+Install requriments first 
+```bash install.sh```.
 
                                     ___________________      
     |              |       |        |                        |
