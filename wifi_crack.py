@@ -80,7 +80,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
         text = colored("Enter the Details: ", "yellow")
         print(text)
         bssid2 = input("Enter bssid: ")
-	subprocess.call(["aireplay-ng", "-0", "0", "-a", bssid2 ,"wlan0"])
+        subprocess.call(["aireplay-ng", "-0", "0", "-a", bssid2 ,"wlan0"])
     else:
         print("Invalid option. Please choose a valid option.")
         break
