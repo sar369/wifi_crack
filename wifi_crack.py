@@ -64,12 +64,17 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
                 print("Error: Check if your adapter is connected properly and Retry again")
                 print(result.stderr)
                 break
-    elif option == 2 or 3:
+    elif option == 2:
       #os.system('clear')
       gnome_terminal_path = subprocess.check_output(["which", "gnome-terminal"]).decode("utf-8").strip()
       subprocess.call([gnome_terminal_path, "--", "sh", "-c", "echo ****Run the tool again to attck [option 3]****; bash"])
       subprocess.call(["airodump-ng", "wlan0"])
       subprocess.call(["airodump-ng", "wlan0"])
+    elif option == 3:
+        text = colored("Enter the Details: ", "yellow")
+        print(text)
+        bssid = int(input("Enter bssid: "))
+        channel = int(input("Enter channel: "))
     else:
         print("Invalid option. Please choose a valid option.")
         break
