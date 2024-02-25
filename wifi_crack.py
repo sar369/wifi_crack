@@ -39,12 +39,12 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     os.system('clear')
 
     if option == 1:
-        text = colored("Adptor Interfaces: \n", "yellow")
+        text = colored("Adptor Interfaces: ", "yellow")
         print(text)
         print("1.wlan0")
         print("2.Wlan0mon")
 
-        adptor = int(input("Choose Your Adptor Interface: "))
+        adptor = int(input("\nChoose Your Adptor Interface: "))
         if adptor == 1:
             result = subprocess.run(["bash","wifi_crack.sh"] ,capture_output=True, text=True)
             if result.returncode == 0:
