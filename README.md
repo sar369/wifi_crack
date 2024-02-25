@@ -10,7 +10,7 @@
 
 ##### Then Run the tool 
 
-```python wifi_crack.py```
+```python3 wifi_crack.py```
 
 
 
