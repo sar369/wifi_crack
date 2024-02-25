@@ -77,7 +77,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
         channel = int(input("Enter channel: "))
         subprocess.call(["reaver", "-i", "wlan0", "-b", bssid, "-c", str(channel), "-K", "1", "-vv"])
     elif option == 4:
-	text = colored("Enter the Details: ", "yellow")
+        text = colored("Enter the Details: ", "yellow")
         print(text)
         bssid2 = input("Enter bssid: ")
 	subprocess.call(["aireplay-ng", "-0", "0", "-a", bssid2 ,"wlan0"])
