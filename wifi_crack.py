@@ -73,7 +73,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     elif option == 3:
         text = colored("Enter the Details: ", "yellow")
         print(text)
-        bssid = int(input("Enter bssid: "))
+        bssid = input("Enter bssid: ")
         channel = int(input("Enter channel: "))
     else:
         print("Invalid option. Please choose a valid option.")
