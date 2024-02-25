@@ -29,7 +29,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
 	     
 """)
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
-    text = (">>Select Option by Entering the following number<<\n","green")
+    text = (">>Select Option by Entering the following number<<","green")
     print(text)
     print("1. Wifi Adptor to Montor mode")
     print("2. Wifi Scan && Attack")
