@@ -34,7 +34,8 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
     print(text)
     print("1. Wifi Adptor to Montor mode")
     print("2. Wifi Scan && Attack")
-    print("3. Wifi Deauthentication Attack\n")
+    print("3. Attack scanned wifi")
+    print("4. Wifi Deauthentication Attack\n")
     option = int(input("Choose the option : "))
     os.system('clear')
 
@@ -65,6 +66,9 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
                 break
     elif option == 2 or 3:
       #os.system('clear')
+      gnome_terminal_path = subprocess.check_output(["which", "gnome-terminal"]).decode("utf-8").strip()
+      subprocess.call([gnome_terminal_path, "--", "sh", "-c", "echo ****Run the tool again to attck [option 3]****; bash"])
+      subprocess.call(["airodump-ng", "wlan0"])
       subprocess.call(["airodump-ng", "wlan0"])
     else:
         print("Invalid option. Please choose a valid option.")
