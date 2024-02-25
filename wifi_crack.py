@@ -5,7 +5,6 @@ from time import sleep
 
 os.system('clear')
 print("Installing requriments.........")
-result = subprocess.run(["bash","req.sh"] ,capture_output=True, text=True)
 for i in tqdm(range(10000)):
 	sleep(0.0005)
 while True:
