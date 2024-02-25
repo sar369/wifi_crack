@@ -2,7 +2,9 @@
 
 ### Working on process....
 
-##### Install requriments first
+#commands
+
+##### First install requriments 
 
 ```bash install.sh```
 
