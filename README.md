@@ -4,11 +4,11 @@
 
 #commands
 
-Install requriments first
+##### Install requriments first
 
 ```bash install.sh```
 
-Then Run the tool 
+##### Then Run the tool 
 
 ```python wifi_crack.py```
 
