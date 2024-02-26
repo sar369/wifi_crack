@@ -108,7 +108,7 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
         bssid = input("Enter bssid: ")
         channel = int(input("Enter channel: "))
         subprocess.call(["reaver", "-i", "wlan0", "-b", bssid, "-c", str(channel), "-K", "1", "-vv"])
-	adptor_return2 = int(input("Press 1 to Continue or Ctrl+z to quit: "))
+        adptor_return2 = int(input("Press 1 to Continue or Ctrl+z to quit: "))
         if adptor_return2 == 1:
                 continue
         else:
