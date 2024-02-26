@@ -34,15 +34,15 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
             print(text)
     else:
             text = colored("""
-        ~~~~~             ()          ~~~~~                                          '
-                          ()~~~~~~~                                                  ' 
-  "My theory was correct! ()                 ~~~~~~~~   /\                           '
-   The giant Krono-Meglo- ()   ~~~~~~ /\__/\           /  ~-.                        '
-    Brutasaurus is NOT    ()       _.' __   '.        /      \                       '
-   extinct! Just look at  ()     .'(x)(x)     \____  /       /                       '
-   those great, crushing  ()    /_________     \  / /   ~~~~~~                       '
-   jaws, Dodson! Imagine  ()     \/\/\/\/_\     \/ /       /                         '
-   those rending teeth   _()_    _/_______/ ~~~~~~~~~~    /                          '
+        ~~~~~             ()          ~~~~~                                          
+                          ()~~~~~~~                                                   
+  "My theory was correct! ()                 ~~~~~~~~   /\                           
+   The giant Krono-Meglo- ()   ~~~~~~ /\__/\           /  ~-.                        
+    Brutasaurus is NOT    ()       _.' __   '.        /      \                       
+   extinct! Just look at  ()     .'(x)(x)     \____  /       /                       
+   those great, crushing  ()    /_________     \  / /   ~~~~~~                       
+   jaws, Dodson! Imagine  ()     \/\/\/\/_\     \/ /       /                         
+   those rending teeth   _()_    _/_______/ ~~~~~~~~~~    /                          
    in action!..."    \ ./____\.  \_________      /       /                             
                       \   __ ~~~~          \    (       / ~~~                            
       ~~~~~~~~       /   /  \   \           \    \     \'                              
