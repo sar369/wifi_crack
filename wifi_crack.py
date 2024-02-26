@@ -1,6 +1,7 @@
 import subprocess
 import os
 import sys
+import random
 from termcolor import colored
 from tqdm import tqdm
 from time import sleep
@@ -11,7 +12,9 @@ for i in tqdm(range(10000)):
 	sleep(0.0005)
 while True:
     os.system('clear')
-    text = colored("""
+    random_number = random.randint(1, 2)
+    if random_number == 1:
+         text = colored("""
                                                                                                       
 I8,        8        ,8I 88    ad88 88         ,ad8888ba,                                   88         
 `8b       d8b       d8' ""   d8"   ""        d8"'    `"8b                                  88         
@@ -28,7 +31,35 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
 											  --- by sar1 
 	     
 """, "green")
-    print(text)
+        print(text)
+    else:
+        text = colored("""
+        ~~~~~             ()          ~~~~~
+                          ()~~~~~~~
+  "My theory was correct! ()                 ~~~~~~~~   /\
+   The giant Krono-Meglo- ()   ~~~~~~ /\__/\           /  ~-.
+    Brutasaurus is NOT    ()       _.' __   '.        /      \
+   extinct! Just look at  ()     .'(x)(x)     \____  /       /
+   those great, crushing  ()    /_________     \  / /   ~~~~~~
+   jaws, Dodson! Imagine  ()     \/\/\/\/_\     \/ /       /
+   those rending teeth   _()_    _/_______/ ~~~~~~~~~~    /
+   in action!..."    \ ./____\.  \_________      /       /
+                      \   __ ~~~~          \    (       / ~~~
+      ~~~~~~~~       /   /  \   \           \    \     \'
+                     |   \__/   |       ~~~~~~~   \     \\______
+                 ~~~~~~~        /          /       '\   / \    /
+                      \___ \ __/   ~~~~    \         \  \  \  /
+                     /_____ \ __\          /\        /  /   \/
+            ~~~~~~~     "Doctor, shut the /  \      (__/  ~~~~~__
+    ~~~~~                    fuck up."  ./   /\               \  /
+                ~~~~~~~~               /    /  ~~~~~~~~~~      \/
+                                      (     \   \               \____
+         ~~~~~~          ~~~~     ~~~~~~     \   \               \  /
+                                       \   jro\   \               \/
+
+				                                   --- by sar1
+""", "green")
+	print(text)    
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
     text = colored(">>Select Option by Entering the following number<<\n", "yellow")
     print(text)
