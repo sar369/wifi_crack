@@ -108,9 +108,10 @@ I8,        8        ,8I 88    ad88 88         ,ad8888ba,                        
         bssid = input("Enter bssid: ")
         channel = int(input("Enter channel: "))
         subprocess.call(["reaver", "-i", "wlan0", "-b", bssid, "-c", str(channel), "-K", "1", "-vv"])
-        print("Start")
-        time.sleep(10)
-        print("End")
+        if adptor_return == 1:
+                continue
+        else:
+                break
     elif option == 4:
         text = colored("Enter the Details: ", "yellow")
         print(text)
